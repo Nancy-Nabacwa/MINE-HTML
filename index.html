@@ -5,93 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #table{
-            width: 100%;
-            border: 2px solid black;
-            border-collapse: collapse;
+        #form{
+        border: solid 3px;
+        width: 50%;
+        margin:0 auto;
+        padding: 20px;
         }
-        .titles{
-            color: greenyellow;
-            text-align: center;
+        #button{
+           background-color: black;
+           width:450px;
+           color: white;
         }
-        #row1{
-            border: 2px solid;
-        }
-        #row2{
-            border: 2px solid;
-        }
-        #row3{
-            border: 2px solid;
-        }
-        #row4{
-            border: 2px solid;
-        }
-        #row5{
-            border: 2px solid;
-        }
-        #row6{
-            border: 2px solid;
-        }
-        #row7{
-            border: 2px solid;
-        }
-        #row8{
-            border: 2px solid;
-        }
-        #row9{
-            border: 2px solid;
-        }
-        #row10{
-            border: 2px solid;
-        }
-        
-        
     </style>
+
 
 </head>
 <body>
-    <table id="table">
-        <tr id="titles">
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email Address</th>
+    <form id="form">
+        <h6>Don't have an acount?<a href="/MINE1/index.html">Sign up</a></h6>
+        <h1>Sign In</h1>
+            <label for="email">Email:</label>
+            <input name="email" placeholder="nancypauline@gmail.com" type="text" required class="input"/>
+            <br/>
+            <br/>
+            <label for="password">Password</label>
+            <input name="password" placeholder="*******" type="text" required="input"/>
+            <br/>
+            <br/>
+            <input type="checkbox" checked="checked"/>
+            <label>I've read and agreed with the <b>Terms Of Service</b> and our <b>Privacy Policy</b></label>
+            
+            <br/>
+            <br/>
 
-        </tr>
+            <button id="button" type="button"><a href="/MINE2/index.html">Log In</a></button>
+            <p><hr></p>
+            
+            
+            
+
+            
         
-        <tr id="row1">
-            <td>No.1</td>      
-        </tr>
+            
+
+    
+    </form>
+    
         
-        <tr id="row2">
-            <td>No.2</td>      
-        </tr>
-        <tr id="row3">
-            <td>No.3</td>      
-        </tr>
-        <tr id="row4">
-            <td>No.4</td>      
-        </tr>
-        <tr id="row4">
-            <td>No.5</td>      
-        </tr>
-        
-        <tr id="row6">
-            <td>No.6</td>      
-        </tr>
-        <tr id="row7">
-            <td>No.7</td>      
-        </tr>
-        <tr id="row8">
-            <td>No.8</td>      
-        </tr>
-        <tr id="row9">
-            <td>No.9</td>      
-        </tr>
-       
-    </table>
-    <button id="button" type="button"><a href="/MINE1/index.html">Sign Up</a></button>
-    <br/>
-    <br/>
-    <button id="button" type="button"><a href="/index.html">Sign In</a></button>
+    
 </body>
 </html>
+    
+
